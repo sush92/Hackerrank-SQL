@@ -1,0 +1,3 @@
+select * from (select top 1 CITY, LEN(CITY) lengthofcity from STATION order by lengthofcity ASC,CITY ASC) minmum
+UNION
+select * from (select top 1 CITY, LEN(CITY) lengthofcity from STATION order by lengthofcity desc, CITY ASC) maximum
