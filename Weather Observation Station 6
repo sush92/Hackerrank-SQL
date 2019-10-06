@@ -1,0 +1,2 @@
+select DISTINCT CITY from STATION
+WHERE CITY LIKE 'A%' or CITY LIKE 'E%' or CITY LIKE 'I%' or CITY LIKE 'O%' or CITY LIKE 'U%' ;
